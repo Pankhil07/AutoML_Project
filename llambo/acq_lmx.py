@@ -62,12 +62,6 @@ class LLM_ACQ_LMX:
                         "Each configuration should follow this format:\n"
                         "max_depth: value, max_features: value, min_impurity_decrease: value, "
                         "min_samples_leaf: value, min_samples_split: value, min_weight_fraction_leaf: value.\n"
-                        "For example:\n"
-                        "max_depth: 8, max_features: 0.59, min_impurity_decrease: 0, min_samples_leaf: 0.06, min_samples_split: 0.22, min_weight_fraction_leaf: 0.10\n"
-                        "Each procided output should be in the format:\n"
-                        "max_depth: 6, max_features: 0.67, min_impurity_decrease: 0, min_samples_leaf: 0.07, min_samples_split: 0.25, min_weight_fraction_leaf: 0.04\n"
-                        "max_depth: 3, max_features: 0.93, min_impurity_decrease: 0, min_samples_leaf: 0.12, min_samples_split: 0.21, min_weight_fraction_leaf: 0.07\n"
-                        "and so on give me 20 such outputs and please output that only and nothing else"
                         "Please provide the configurations in the same format as shown above and it should contain all the mentioned hyperparams.")
 
         responses = []
